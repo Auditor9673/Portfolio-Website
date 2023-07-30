@@ -9,8 +9,13 @@ with col1:
 
 with col2:
     st.title("Arghyadeep Guria")
-    content = """
-Hii, I'm Arghyadeep! I am a Python Programmer, Website Developer, and an AI learner. I passed my high-school in the year 2022.
-I'm seeking a job now.
+    content1 = """
+Hii, I'm Arghyadeep! I am a Python Programmer, Website Developer, and an AI learner.
+I passed my high-school in the year 2022. I'm seeking a job now.
 """
-    st.info (content)
+    st.info (content1)
+
+content2 = """
+Below you can find some of the apps I Built. Feel free to contact me
+"""
+st.write(content2)
