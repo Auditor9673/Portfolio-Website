@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas
 
-st.set_page_config(layout="wide")
+st.set_page_config("Arghyadeep Guria's Portfolio", layout="wide")
 
 col1, col2 = st.columns(2)
 
@@ -19,7 +19,7 @@ I passed my high-school in the year 2022. I'm seeking a job now.
 content2 = """
 Below you can find some of the apps I Built. Feel free to contact me
 """
-st.write(content2)
+st.subheader(content2)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
