@@ -1,4 +1,5 @@
 import smtplib, ssl
+import os
 
 
 def send_email(message):
@@ -6,7 +7,7 @@ def send_email(message):
     port = 465
 
     username = "2608arghyadeep2004@gmail.com"
-    password = "tclrwchehwvrjkjs"
+    password = os.getenv("PASSWORD")
 
     reciever = "2608arghyadeep2004@gmail.com"
     my_context = ssl.create_default_context()
